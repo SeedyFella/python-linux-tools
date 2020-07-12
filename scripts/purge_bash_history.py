@@ -28,11 +28,18 @@ except FileExistsError:
 
 # The strings to be purged. Edit this list to suit your needs.
 purge_strings = [
+    "cd",
     "clear",
     "exit",
     "ls",
     "ping",
-    "time"
+    "poweroff",
+    "pwd",
+    "reboot",
+    "status",
+    "time",
+    "update",
+    "upgrade"
 ]
 
 # Copy the old history file into the new one, excluding purge strings.
